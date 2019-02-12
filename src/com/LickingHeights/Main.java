@@ -14,6 +14,16 @@ public class Main {
         //initializing
         keyboard = new Scanner(System.in);
 
+        System.out.println("What is your height?(only feet)");
+        feet = keyboard.nextInt();
+        System.out.println("What is your height in?(only inches)");
+        inches = keyboard.nextInt();
+        System.out.println("What is your weight?(in pounds)");
+        pounds = keyboard.nextInt();
+
+
+
+
 
 
 
