@@ -22,7 +22,9 @@ public class Main {
         meters = (totalInches*(0.0254/1));
         System.out.println("What is your weight?(in pounds)");
         pounds = keyboard.nextInt();
-        kg = (pounds*(2.204/1));
+        kg = (pounds*(1/2.204));
+        BMI = (kg/(meters*meters));
+        System.out.println("Your BMI is " + BMI +".");
 
 
 
